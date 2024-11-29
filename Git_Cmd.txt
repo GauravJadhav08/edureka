@@ -1,0 +1,23 @@
+
+F:\Edureka\Git\Edureka>git add remote add origin https://github.com/GauravJadhav08/edureka.git
+
+F:\Edureka\Git\Edureka\edureka>git checkout -b Test_Branch
+
+F:\Edureka\Git\Edureka\edureka>git add .
+
+F:\Edureka\Git\Edureka\edureka>git commit -m "Added new sample project."
+
+F:\Edureka\Git\Edureka\edureka>git push
+
+F:\Edureka\Git\Edureka\edureka> git push --set-upstream origin Test_Branch
+
+F:\Edureka\Git\Edureka\edureka>git checkout main
+
+F:\Edureka\Git\Edureka\edureka>   git pull origin main
+
+F:\Edureka\Git\Edureka\edureka>git merge Test_Branch
+
+F:\Edureka\Git\Edureka\edureka>git commit -m "Merge Test_Branch into main"
+
+F:\Edureka\Git\Edureka\edureka>   git push origin main
+
